@@ -24,7 +24,7 @@ object exercice1 {
     departPopDF.show()
 
     // Highly populated departments (names, using join)
-    val departementsDF = spark.read.text("/host/Documents/BigData_NoSQL/Week2/Spark/data/departements.txt")
+    val departementsDF = spark.read.text("data/input/departements.txt")
       .withColumn("name", split(col("value"), ","))
       .select(col("name")(0).as("name"),col("name")(1).as("departement"))
 
