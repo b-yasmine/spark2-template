@@ -10,6 +10,8 @@ object Main {
 
     //sql_practice.examples.sample()
     //sql_practice.exercice1.exec1()
-    sql_practice.exercice2.exec2()
+    //sql_practice.exercice2.exec2()
+    sql_practice.exercice3.exec3()
+
   }
 }
